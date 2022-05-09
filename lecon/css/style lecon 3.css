@@ -1,0 +1,19 @@
+div{
+    padding: 2%;
+    margin: 2%;
+}
+.div1{
+    background-color: #db6060;
+}
+.div2{
+    background-color: #f0f072;
+}
+.div3{
+    background-color: #86dd86;
+}
+#float > .float{
+    float: left;/* flotter à gauche de du conteneur*/
+}
+.clear{
+    clear: both;
+}

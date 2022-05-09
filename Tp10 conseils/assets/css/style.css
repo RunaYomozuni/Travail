@@ -1,0 +1,29 @@
+header{
+    background-color:#0F5291 ;
+    word-spacing: 20px;
+}
+header h1{
+color: white;
+text-align: center;
+font-size: 70px;
+}
+header img{
+    margin: auto;
+    display: block;
+}
+header span{
+    color: yellow;
+}
+table{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+td{
+font-size: 30px;
+text-align: center;
+}
+td span{
+color:#0F5291 ;
+font-size: 40px;
+text-align: center;
+}

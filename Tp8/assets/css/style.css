@@ -1,0 +1,153 @@
+html{
+    background-image: url(../img/fond_jaune.png);
+}
+h1{
+    font-family: 'Rubik Beastly', cursive;
+    font-weight: normal;
+}
+h2{
+    font-family: 'Gluten', cursive;
+}
+body{
+    width: 50%;
+    margin: 0 auto;
+    height: 100%;
+}
+header img{
+    float: left;
+}
+header h1{
+    margin-left: 75px;
+    position: relative;
+    bottom: 10px;
+}
+ header h2{
+    text-align: center;
+    margin: 0;
+}
+nav img{
+width: 100%;
+height: 5px;
+}
+nav h3{
+    float: left;
+    margin: 40px;
+}
+#image{
+background: url(../img/sanfrancisco.jpg) no-repeat;
+height: 219px;
+width: 950px;
+border-radius: 30px;
+margin-top: 150px;
+}
+#image p{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    position: relative;
+    top: 166px;
+    border-radius: 0 0 30px 30px;
+    width: 950px;
+    height: 54px;
+    padding: 10px;
+    font-size: 22px;
+}
+#Voir span{
+    background: url(../img/fond_degraderouge.png) repeat-X;
+    font-size: 20px;
+    color: #fff;
+    padding: 3px 20px 20px;
+    border-radius: 30px;
+    float: right;
+    position: relative;
+    bottom: 49px;
+    right: 21px;
+    display: inline;
+    height: 30px;
+}
+#titre2 h2{
+    margin: 0;
+}
+#lorem{
+    float: left;
+    width: 70%;
+}
+#Apropos{
+    border-radius: 30px;
+    float: left;
+    color: white;
+    width: 30%;
+    background-color: grey;
+    padding: 13px;
+}
+#Apropos h2{
+    word-spacing: 22px;
+}
+#Apropos h3{
+    font-size: 20px;
+}
+#Apropos li, #photo li{
+    float: right;
+    list-style: none;
+    position: relative;
+    right: 23px;
+}
+#separ img{
+    width: 100%;
+    height: 5px;
+    position: relative;
+    bottom: 27px;
+}
+#return img{
+    position: relative;
+    margin-left:50% ;
+    bottom: 41px;
+    display: inline-block;
+}
+#end h2{
+    margin: 0;
+    display: inline-block;
+    font-size: 28px;
+}
+#end h3{
+    font-size: 20px;
+}
+#tweet{
+    float: left;
+    margin-right: 30px;
+}
+#photo,#amis{
+    float: left;
+    text-align: center;
+} 
+#amis ul{
+    margin: 0;
+    float: left;
+    padding: 0;
+    list-style-image: url(../img/ico_liensexterne.png);
+}
+#amis li{
+    margin-left: 57px;
+    font-size: 20px;
+    text-align: center;
+}
+#liste2{
+    padding: 0;
+    float: right;
+}
+#amis{
+    float: left;
+    width: 38%
+}
+#amis h2{
+    width: 100%;
+}
+footer{
+    background-color:#1F0505;
+    color: white;
+    text-align: center;
+    height: 50px;
+    margin: 10px;
+}
+.clear{
+    clear: both;
+}

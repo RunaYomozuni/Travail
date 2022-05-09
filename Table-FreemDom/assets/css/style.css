@@ -1,0 +1,32 @@
+table{
+    border-spacing: 0;
+    float: left;
+}
+
+.Grd{
+    background-color: #5D5D5D;
+    color: white;
+    border: 1px solid grey;
+    padding: 15px 100px;
+}
+td{
+    border: 1px solid grey;
+    text-align: center;
+    padding: 10px 60px;
+}
+.optn{
+    padding: 10px 80px;
+    border: 1px solid grey;
+}
+.space{
+    padding: 35px 0;
+}
+.hv:hover{
+    transform: scale(110%);
+    background-color: #B9B8B9;
+}
+
+.hv:hover .Grd{
+background-color: black;
+}
+

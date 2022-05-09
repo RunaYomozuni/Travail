@@ -1,0 +1,55 @@
+header{
+    text-align: center;
+}
+/*Version telephone*/
+@media only screen and (max-width: 500px) {
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    section img{
+        width: 100%;
+        margin: 1px;
+    }
+    section{
+        width: 100%;
+    }
+}
+
+/*Version tablette*/
+@media only screen and (min-width: 501px) and (max-width: 810px){
+    #global{
+        width: 100%;
+    }
+    main{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    section{
+        width: 49%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    section img{
+        width: 100%;
+        margin: 1px;
+    }
+}
+@media only screen and (min-width: 810px){
+    #global{
+        width: 100%;
+    }
+    main{
+        display: flex;
+    }
+    section{
+        width: 25%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section img{
+        width: 100%;
+        margin: 1px;
+    }
+}

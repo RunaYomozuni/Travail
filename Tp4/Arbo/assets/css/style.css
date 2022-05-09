@@ -1,0 +1,57 @@
+*{
+    margin: 10px;
+}
+header{
+    font-size: 2em;
+    font-weight: bold;
+}
+HTML h1{
+    font-size: 40px;
+}
+HTML h2,h3{
+    font-size: 30px;
+}
+img{
+    padding-bottom: 2%;
+}
+#Css h1{
+font-size: 35px;
+}
+p{
+    margin:0%;
+    font-size: 23px;
+    
+}
+#JS h1{
+    font-size: 40px;
+}
+#Border{
+    border-style:solid ;
+    border-width: 1px;
+}
+#rouge{
+    background-color: tomato;
+}
+#bleu{
+    background-color: aquamarine;
+}
+#vert{
+    background-color: goldenrod;
+}
+#rouge2{
+    color: tomato;
+}
+#bleu2{
+    color: aquamarine;
+}
+#vert2{
+    color: goldenrod;
+}
+span{
+    color: gray;
+}
+small{
+    display:inline-block;
+    position: relative;
+    bottom: 65px;
+}

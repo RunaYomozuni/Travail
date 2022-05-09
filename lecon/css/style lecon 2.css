@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    text-align: center;
+}
+h1 {
+    color: red;
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+}
+nav h2{
+    margin: 0;
+    color:white;
+    font-size: 25px;
+    text-align: right;
+
+}
+main{
+    background-color: lightblue;
+    margin: 0 auto;
+    width: 50%;
+}
+.class{
+    color: orange;
+}
+p{
+    font-family: cursive;
+}
+#id-1{
+    text-decoration: underline;
+}
+#id-2 {
+    border: 1px solid #000;
+}
+#id-3{
+background-color: #000;
+}
+#id-3, #id-4{
+color: #fff;
+}
+
+#id-4{
+    background-color: salmon;
+}
+#section-3 #id-3{
+    padding: 20%;
+}
+.image{
+   display: flex; 
+   justify-content: space-evenly;
+   width: 100%;
+}

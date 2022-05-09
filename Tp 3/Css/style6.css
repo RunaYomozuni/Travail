@@ -1,0 +1,85 @@
+#zone1{
+    float: left;
+    background-color: blueviolet;
+    width: 33%;
+    height: 200px;
+    text-align: center;
+}
+#zone4{
+    background-color: thistle;
+    color: thistle;
+}
+#zone2{
+    float: left;
+    background-color: magenta;
+    width: 33%;
+    height: 200px;
+    text-align: center;
+}
+#zone3{
+    float: left;
+    background-color:mediumturquoise;
+    width: 34%;
+    height: 200px;
+    text-align: center;
+}
+#zone5{
+    float: left;
+    background-color: chartreuse;
+    width: 20%;
+    height: 760px;
+    text-align: center;
+}
+#zone6{
+    float: left;
+    text-align: center;
+    width: 39%;
+    height: 300px;
+    background-color: cornflowerblue;
+}
+#zone7{
+    float: right;
+    text-align: center;
+    width: 41%;
+    height: 300px;
+    background-color: rgb(15, 54, 128);
+}
+#zone8{
+    background-color: thistle;
+    color: thistle;
+    height: 555px;
+}
+#zonef{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    margin-top: 8em;
+}
+#zone9{
+    float: left;
+    text-align: center;
+    width: 20%;
+    height: 205px;
+    background-color: palegoldenrod;
+}
+#zone10{
+    float: left;
+    text-align: center;
+    width: 20%;
+    height: 205px;
+    background-color: yellow;
+}
+#zone11{
+    float: left;
+    text-align: center;
+    width: 20%;
+    height: 205px;
+    background-color:gold;
+}
+#zone12{
+    float: left;
+    text-align: center;
+    width: 20%;
+    height: 205px;
+    background-color: aliceblue;
+}

@@ -1,0 +1,23 @@
+#zone1{
+    background-color: yellow;
+    text-align: center;
+    width:50% ;
+    height: 50em;
+    float: left;
+}
+#zone2{
+    background-color: yellowgreen;
+    float: right;
+    height: 50em;
+    width:50% ;
+    text-align: center;
+}
+#zone3{
+    background-color: teal;
+    height: 10em;
+    width: 100%;
+    text-align: center;
+}
+.clear{
+    clear: both;
+}

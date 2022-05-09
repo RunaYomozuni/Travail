@@ -1,0 +1,102 @@
+header{
+    text-align: center;
+    margin: 0 600px;
+}
+header p,h1{
+    margin: 0;
+}
+header p:first-of-type{
+    color: brown;
+}
+main{
+    margin: 0 250px;
+}
+#exemple_plat_img_1 hr{
+    width: 800px;
+    position: relative;
+    bottom: 270px;
+}
+#exemple_plat_img_1 i{
+    position: relative;
+    bottom: 254px;
+    left: 380px;
+}
+#exemple_plat_img_1 p{
+    margin: 0;
+    position: relative;
+    right: 260px;
+    bottom: 270px;
+    width: 300px;
+    float: right;
+    text-align: right;
+}
+h2{
+    margin: 0;
+    display: inline-block;
+    float: left;
+}
+.presentation p{
+    width: 600px;
+    margin: 0;
+    display: inline-block;
+}
+.float_r{
+    height: 750px;
+}
+.float_l{
+    height:670px ;
+}
+.float_r hr{
+    float: right;
+    width: 560px;
+}
+.float_r img{
+    float: right;
+    height: 750px;
+    width: 720px;
+}
+.float_l hr{
+    float: left;
+    width: 560px;
+}
+.float_l img{
+    float: left;
+    height: 670px;
+    width: 685px;
+}
+.contenu_r{
+    margin-left: 30px;
+    margin-top: 170px;
+    display: inline-block;
+}
+.star{
+    background-color: black;
+    color: white;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+footer{
+    margin: 100px 35% 0 33%;
+    text-align: center;
+}
+footer img{
+    display: block;
+    margin: auto;
+}
+footer hr{
+    margin: 0;
+}
+footer hr:first-of-type{
+    margin-top: 30px;
+}
+footer h1{
+    letter-spacing: 10px;
+}
+footer p{
+    margin:0 ;
+}
+.clear{
+    clear: both;
+}

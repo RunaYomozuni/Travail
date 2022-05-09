@@ -1,0 +1,19 @@
+table{
+    border-spacing: 0;
+}
+td{
+height: 150px;
+width: 150px;
+}
+.yellow{
+    background-color: yellow;
+}
+.grey{
+    background-color: grey;
+}
+.black{
+    background-color: black;
+}
+.blue{
+    background-color: blue;
+}

@@ -1,0 +1,90 @@
+body{
+    background-color: lightgray;
+    width: 80%;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+}
+label{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+#encadrement{
+    display: flex;
+}
+.info{
+    font-size: 20px;
+    width: 330px;
+    text-align: center;
+    display: inline-block;
+    margin: 0 24px;
+}
+.info i{
+    padding: 45px;
+    background-color: darkturquoise;
+    border-radius: 55px;
+    color: white;
+}
+.info span {
+    font-weight: bold;
+}
+.truk{
+    color: darkturquoise;
+}
+main p{
+    font-size: 65px;
+    margin-left: 60px;
+}
+form {
+    margin: 0 40px;
+    height: 595px;
+}
+main{
+    float: left;
+    background-color: white;
+    width: 60%;
+    height: 830px;
+}
+#encadrement2{
+    margin-top: 150px;
+}
+#name{
+    margin-right:30px ;
+}
+#name,#mail{
+    float: left;
+}
+#name input,#mail input{
+   width: 400px;
+}
+input{
+    border: none;
+    border-bottom: 1px solid gray;
+}
+#subject{
+    width: 800px;
+    margin-bottom: 20px;
+}
+textarea{
+    border: none;
+    border-bottom: 1px solid gray;
+}
+img{
+    float: left;
+    height: 830px;
+    width: 608px;
+}
+#send{
+    background-color: #01B0F0;
+    padding: 30px;
+    color: white;
+    position: relative;
+    top: 100px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 14px 28px, rgba(0, 0, 0, 0.22) 0 10px 10px;
+}
+.clear{
+    clear: both;
+}

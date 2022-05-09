@@ -1,0 +1,133 @@
+main{
+    width: 70%;
+    margin-left: 6%;
+    text-align: justify;
+}
+h1{
+    display: inline;
+    float: left;
+    margin: 0;
+    font-size: 50px;
+}
+nav{
+    background-color: #37505c ;
+    float: left;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+ul{
+    display: flex;
+    text-decoration: none;
+    margin-top: 0;
+    height: 60px;
+}
+li{
+    padding: 14px 10px 0 10px;
+    list-style: none;
+    font-size: 1.85rem;
+    width: 150px;
+}
+li:hover{
+    background-color: salmon;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+li:nth-last-of-type(1){
+    background-color:#A0CFD3;
+    color: #37505c;
+    padding: 18.5px;
+    margin-top: 0;
+}
+
+article{
+    margin:10px;
+    font-family: 'Raleway', sans-serif;
+}
+#intro h2{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+img{
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#projetEntreprise p{
+    font-size: 1.12rem  ;
+    word-spacing: 8px;
+}
+#commentOnFait,#info p{
+    font-size: 1.12rem;
+}
+#contenu a{
+    color: orange;
+    float: right;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+#contenu a:hover{
+    text-decoration: underline;
+}
+footer{
+    width: 100%;
+    height: 164px;
+    background-color: #37505c;
+    font-size: 1.12rem;
+    margin-top: 100px;
+}
+footer span{
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: #AAA ;
+}
+footer p{
+    color: #AAA ;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.policeSpecial{
+    font-family: 'Megrim', cursive;
+}
+#partenares p{
+    margin-left: 20px;
+}
+#end{
+    float: right;
+    margin-top: 75px;
+}
+#partenares{
+    float: left;
+}
+#widjet{
+    background-color: lightgray;
+    border-radius: 15px;
+    width: 18%;
+    float: right;
+}
+#widjet a{
+    text-decoration: none;
+    color: black;
+}
+#widjet:hover{
+    background-color: skyblue;
+}
+#widjet a:hover{
+    background-color: salmon;
+}
+#widjet p:hover{
+    transform: scale(150%);
+}
+section{
+    float: left;
+}
+.clear{
+    clear: both;
+}

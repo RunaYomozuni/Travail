@@ -1,0 +1,89 @@
+
+body{
+    background-image: url(../img/fond.png) ;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+header img{
+width: 300px;
+padding-top: 35px;
+}
+header{
+    background-color: #27032D;
+    padding: 20px;
+}
+nav{
+    height: 35px;
+    font-size: 1.3em;
+}
+#item1,#item2,#item3{
+    color: white;
+    position: relative;
+    float: right;
+    padding: 20px;
+    bottom: 190px;
+}
+#hxh{
+  background-color: white;
+}
+#hxh h1{
+    color:   #27032D;
+    margin-top: 0%; 
+
+}
+#hxh img{
+    height: 200px;
+    float: left;
+}
+#hxh p{
+    display: inline-block;
+    width: 1100px;
+    position: relative;
+    bottom: 90px;
+}
+#hxh h2{
+    width: 120px;
+    height: 42px;
+    background-color: #27032D;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    float: right;
+    margin-right: 30px;
+}
+#hxh2{
+    background-color: white;
+    height: 940px;
+  }
+  #hxh2 h1{
+      color:   #27032D;
+      margin-top: 0%; 
+  
+  }
+  #hxh2 img{
+      height: 200px;
+      float: left;
+  }
+  #hxh2 p{
+      display: inline-block;
+      width: 1100px;
+      position: relative;
+      bottom: 38px;
+  }
+  #hxh2 h2{
+      width: 120px;
+      height: 42px;
+      background-color: #27032D;
+      text-align: center;
+      font-size: 25px;
+      color: white;
+      float: right;
+      margin-right: 30px;
+  }
+  p, h1, h2, img{
+      margin-left: 20px;
+  }
+footer{
+    background-color: black;
+    text-align: center;
+}

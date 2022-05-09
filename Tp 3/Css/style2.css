@@ -1,0 +1,27 @@
+#zone1{
+    background-color: yellow;
+    text-align: center;
+    height: 100px;
+    float: none;
+}
+#zone2{
+    background-color: yellowgreen;
+    float: left;
+    width: 200px;
+    height: 100em;
+    text-align: center;
+}
+#zone3{
+    background-color: teal;
+    text-align: center;
+    height: 50em;
+    float: left;
+    width: 1501px;
+}
+#zone4{
+    background-color: violet;
+    float: right;
+    width: 200px;
+    height: 100em;
+    text-align: center;
+}

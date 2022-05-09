@@ -1,0 +1,203 @@
+body{
+    border: #CACCCF 25px solid;
+    background-color: #FCFCFC;
+    padding: 0 20px;
+    font-family: Arial, sans-serif;
+}
+header{
+    background-image: url("../img/banner-images/banner-image-1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1188px;
+}
+h1, h2, h3, h4{
+    font-family:Times New Roman, sans-serif ;
+    font-weight: bold;
+}
+h1{
+    margin-top: 10px;
+    display: inline-block;
+}
+nav{
+    display: inline;
+}
+ul{
+    display: inline-flex;
+    padding-left: 36px;
+}
+li{
+    text-transform: uppercase;
+    list-style: none;
+    padding: 0 20px;
+    font-size: 18px;
+}
+h2{
+    margin-top: 10px;
+    font-size: 75px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 90px;
+}
+footer ul{
+    float: right;
+    color: gray;
+    margin: 0;
+}
+small{
+ font-size: 26px;
+}
+#GrandTitre{
+    width: 455px;
+}
+#texteHeader{
+    width: 424px;
+}
+#header{
+    padding: 200px 0;
+}
+#success,#citation{
+    width: 33%;
+    margin-right: 100px;
+}
+#success2{
+    width: 80%;
+}
+#premiereDiv{
+    display: flex;
+}
+#html,#easy{
+    margin-right: 20px;
+}
+#deuxiemeDiv{
+    display: flex;
+}
+#success2{
+    margin-bottom: 200px;
+}
+#success2 i{
+    color:#D2B355;
+    font-size: 40px;
+}
+#gallery{
+    font-size: 0;
+    margin-bottom: 200px;
+}
+#gallery img{
+    width: 33%;
+}
+#believing{
+    width: 33%;
+}
+#citation{
+    width: 100%;
+}
+#believing{
+    width: 120%;
+}
+#imageDanceur{
+    width: 100%;
+}
+#imageDanceur img{
+    width:100%;
+}
+#feedBack{
+    text-align: center;
+    margin-bottom: 200px;
+}
+#feedBackSaying{
+    text-align: center;
+    display: flex;
+    margin-top: 70px;
+}
+#trust{
+    width: 180%;
+}
+#trust .border{
+    margin: 30px 0;
+}
+#allIcons img{
+    width: 30%;
+}
+#allIcons{
+    margin-bottom: 200px;
+}
+#price{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+#yourChoice{
+    margin-bottom: 100px;
+    text-align: center;
+}
+#yourChoice .border{
+    display: block;
+    margin: 20px auto;
+}
+#popular {
+     background-color: goldenrod;
+}
+.sousTitre{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+.prix{
+    background-color: lightgray;
+    padding: 40px;
+}
+.prix, .prix i{
+    color: white;
+}
+.prix p{
+    font-size: 60px;
+    margin: 0;
+}
+.name p{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.dottedBorder{
+    border: dotted 1px gray;
+}
+.abonnement{
+    width: 30%;
+    background-color: white;
+}
+.customer {
+    width: 33%;
+}
+.customer img{
+    width: 25%;
+    border-radius: 70px;
+}
+.colorGray{
+    color: gray;
+}
+.btn span{
+    border: black 5px solid;
+    padding: 10px;
+}
+.btn{
+    margin-top: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.sectionBox{
+    display: flex;
+
+}
+.btn svg{
+    width: 3%;
+}
+.border{
+    border: #D2B355 3px solid;
+    width: 50px;
+    margin: 20px 0;
+}
+.customer,#feedBack .border{
+    display: block;
+    margin: 20px auto;
+}
+
+

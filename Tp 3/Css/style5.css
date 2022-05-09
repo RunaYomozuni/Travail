@@ -1,0 +1,55 @@
+body{
+    height: 100%;
+}
+header #zone1{
+    text-align: center;
+    background-color: blue;
+    width: 100%;
+    height: 150px;
+}
+nav{
+    background-color: teal;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+}
+.zone{
+    margin: 40px;
+    text-align: center;
+}
+#zone3{
+    background-color: thistle;
+    color: thistle;
+}
+#zone4{
+    background-color: red;
+    float: left;
+    width: 939px;
+    height: 50px;
+    height: 240px;
+}
+#zone5{
+    background-color:green;
+    height: 250px;
+}
+#zone6{
+    background-color:green;
+    float: left;
+    width: 939px;
+    height: 250px;
+}    
+#zone7{
+    background-color: red;
+height: 250px;
+    }    
+footer{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background-color: chocolate;
+    position: fixed;
+    bottom: 0;
+}
+#clear{
+    clear: both;
+}

@@ -1,0 +1,37 @@
+html{
+    height: 100%;
+}
+.r,.v,.b,.t,.vl,.t,.j,.n {
+float: left;
+margin: 43px;
+width:225px ;
+height:189px ;
+font-size: 50px;
+border-radius: 30px;
+text-align: center;
+}
+    .r{
+        background-color: green;
+    }
+    .v{
+        background-color: red;
+    }
+    .b{
+        background-color: white;
+        color: white;
+    }
+    .vl{
+        background-color: violet;
+    }
+    .j{
+        background-color: yellow;
+    }
+    .t{
+        background-color: turquoise;
+    }
+    .n{
+        background-color: black;
+    }
+    .clear{
+        clear: both;
+    }

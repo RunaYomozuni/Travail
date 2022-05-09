@@ -1,0 +1,22 @@
+table{
+    border-spacing: 0;
+}
+td{
+height: 75px;
+width: 75px;
+}
+.noir{
+    background-color: black;
+}
+.br{
+    background-color: #322818;
+}
+.brl{
+    background-color: #423223;
+}
+.bg{
+    background-color: #FCAA81;
+}
+.vrt{
+    background-color: green;
+}

@@ -1,0 +1,23 @@
+table{
+    border: 2px solid #5C91EC;
+    border-spacing: 0;
+}
+th{
+    background-color: #EFF6FF;
+    padding: 0 30px;
+}
+td{
+    text-align: center;
+    padding: 0 25px;
+    border: 2px solid lightskyblue;
+}
+.bas{
+    border-bottom: 2px solid lightskyblue;
+}
+.haut{
+    border-top: 2px solid lightskyblue;
+    border-bottom: 2px dotted lightskyblue;
+}
+thead th,tfoot th{
+    border-left: 2px dotted lightskyblue;
+}

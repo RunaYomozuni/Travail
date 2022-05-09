@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+h1 {
+    background-color: magenta;
+    text-align: center;
+    font-family: 'Megrim', cursive;
+    font-size: 43px;
+    width: 35%;
+    margin: auto;
+}
+h1:nth-of-type(2), h1:nth-of-type(3), h1:last-of-type{
+    display: none;
+}
+div{
+    background-color: black;
+    border-radius: 60% 10%;
+    width: 40vh;
+    height: 40vh;
+    margin: 10px auto;
+}
+@media screen and (min-width: 776px) and (max-width: 991px) {
+    h1:nth-of-type(2){display: block;}
+    h1:first-of-type{display: none;}
+    h1{
+        background-color: palegreen;
+    }
+    div{
+        background-color: #01B0F0;
+        border-radius: 10% 60%;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    h1:nth-of-type(3){display: block;}
+    h1:first-of-type{display: none;}
+    h1{
+        background-color: yellowgreen;
+    }
+    div{
+        background-color: blueviolet;
+        border-radius: 60%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    h1:nth-of-type(4){display: block;}
+    h1:first-of-type{display: none;}
+    h1{
+        background-color: hotpink;
+    }
+    div{
+        background-color: aqua;
+        border-radius: 60%;
+    }
+}

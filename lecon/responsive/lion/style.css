@@ -1,0 +1,138 @@
+body{
+    border: black 2px solid;
+}
+header,footer{
+    background-color: #832E4D;
+    width: 100%;
+    height: 200px;
+}
+nav{
+    background-color: #025874;
+    padding-bottom: 1px;
+}
+ul{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+}
+li{
+    list-style: none;
+    color: white;
+    margin: auto;
+}
+section{
+    margin: auto 20px;
+}
+#four,#one,#tree,#two{
+    height: 500px;
+    width: 94%;
+}
+#one{
+    background-color: gray;
+}
+#two{
+    background-color: #025975;
+}
+#tree{
+    background-color: #F5E18D;
+}
+#four{
+    background-color: #9CCE44;
+}
+@media screen and (min-width: 650px) and (max-width: 800px) {
+    nav{
+        background-color: #457b9d;
+    }
+    #one{
+        background-color: #01B0F0;
+    }
+    #two{
+        background-color: #FF358B;
+    }
+    #tree{
+        background-color: palegreen;
+    }
+    #four{
+        background-color: #edf2f4;
+    }
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #four,#one,#tree,#two{
+        width: 40%;
+        height: 20em;
+    }
+    section{
+        margin: 10px;
+    }
+    header,footer{
+        background-color: darkorange;
+    }
+}
+@media screen and (min-width: 801px) {
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #four,#one,#tree,#two{
+        width: 40%;
+        height: 20em;
+    }
+    section{
+        margin: 10px;
+    }
+}
+@media screen and (min-width: 950px) and (max-width: 1099px) {
+    section{
+        border-radius: 50%;
+    }
+    #one{
+        background: url("index.jpg") no-repeat;
+        background-size: 100%;
+    }
+    nav{
+        background-color: goldenrod;
+    }
+    #two{
+        background-color: #8fb996;
+    }
+    #tree{
+        background-color: burlywood;
+    }
+    #four{
+        background-color: turquoise;
+    }
+    header,footer{
+        background-color: brown;
+    }
+}
+@media screen and (min-width: 1100px){
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #four,#one,#tree,#two{
+        width: 40%;
+        height: 20em;
+    }
+    section{
+        margin: 10px;
+    }
+    #one{
+        background-image: linear-gradient(to right, #051937, #00476f, #007c9e, #00b3bc, #12ebc5);
+    }
+    #two{
+        background-color: #12ebc5;
+    }
+    #tree{
+        background-color: #12ebc5;
+    }
+    #four{
+        background-image: linear-gradient(to left, #051937, #00476f, #007c9e, #00b3bc, #12ebc5);
+    }
+}

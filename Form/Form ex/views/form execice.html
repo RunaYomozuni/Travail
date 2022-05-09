@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/Normalize.css">
+    <link rel="stylesheet" href="../assets/css/Base.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+<form action="">
+    <fieldset>
+        <legend>Identité</legend>
+        <div class="id">
+            <label for="pseudo">Pseudo *</label>
+            <br>
+            <input type="text" placeholder="Jean31" id="pseudo" name="pseudo" required>
+        </div>
+
+        <div class="id">
+            <label for="mdp">Mot de passde *</label>
+            <br>
+            <input type="password" placeholder="Mot de passe " id="mdp" name="mdp" required>
+        </div>
+
+        <div class="id">
+            <label for="email">Email</label>
+            <br>
+            <input type="email" placeholder="Email" id="email" name="email">
+        </div>
+
+        <div class="id">
+            <label for="ville">Ville :</label>
+            <br>
+            <select>
+                <option value="">Paris</option>
+                <option value="">Lyon</option>
+                <option value="">Sète</option>
+                <option value="">Marseille</option>
+            </select>
+        </div>
+
+        <div class="id">
+            <label for="postal">Code postal :</label>
+            <br>
+            <input type="text" id="postal" name="postal">
+        </div>
+
+        <label for="file">Photo</label>
+        <div class="photo">
+            <input type="file" id="file" name="file">
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Questions</legend>
+
+        <label for="">Quelle destination choisissez-vous ?</label>
+        <br>
+        <div class="dest"  ><input type="checkbox" name="choix"> Chine </div>
+        <div class="dest"> <input type="checkbox" name="choix"> Autralie </div>
+        <div class="dest"><input type="checkbox" name="choix" checked> Mars</div>
+        <br>
+        <label for="com">Commentaire</label>
+        <br>
+        <textarea id="com" name="com" cols="135" rows="10"></textarea>
+        <br>
+        <input type="checkbox" name="accept" required> J'accepte les conditions d'utilisation du site. *
+    </fieldset>
+
+    <input id="comfirm" type="submit" name="inscription" value="S'inscrire">
+    <input id="annule" type="reset" name="efface" value="Annuler">
+</form>
+</body>
+</html>

@@ -1,0 +1,164 @@
+*{
+    font-family: Roboto Condensed, Open Sans, sans-serif;
+}
+section{
+    margin: 10px auto;
+}
+#avocadoGrill{
+    background: url("img/building2.jpg") no-repeat center;
+    height: 750px;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 34px;
+}
+.citation{
+    height: 50rem;
+    color: #858a91;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 10px #F2EAE1 solid;
+    padding: 0 3em;
+}
+.citation img{
+    height: 40px;
+}
+#horairePhoto{
+    display: flex;
+    flex-wrap: wrap;
+}
+#horaire{
+    background-color: #F2EAE1;
+    height: 750px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#horaire p{
+    width: 148px;
+    font-size: 25px;
+}
+#horairePhoto img{
+    float: left;
+    width: 50%;
+}
+.photo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.photo img{
+    width: 47%;
+}
+#map{
+width: 100%;
+}
+#reservation {
+    text-align: center;
+    background-color: #5F9300;
+    height: 200px;
+    font-size: 30px;
+    color: white;
+    display: flex;
+}
+#reservation p{
+    width: 300px;
+    margin: auto;
+}
+#reservation span,#horaire span{
+    font-weight: bold;
+}
+#philosophy{
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 30px;
+    border: 10px #F2EAE1 solid;
+    padding: 0 3em;
+}
+#philosophy p{
+    line-height: 30px;
+}
+h2{
+    color: green;
+}
+#dl{
+    background-color: #F2EAE1;
+    color: green;
+    text-transform: uppercase;
+    font-weight: bold;
+    height: 30rem;
+    font-size: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    text-align: center;
+}
+footer span{
+    color: green;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    height: 5em;
+}
+footer li{
+    list-style: none;
+    text-align: justify;
+    margin: 0 10px;
+}
+#insta img{
+    width: 3em;
+}
+#twitter img{
+    width: 4em;
+}
+#foursquate img{
+    width: 2.3em;
+}
+#facebook img{
+    width: 3em;
+}
+.clear{
+    clear: both;
+}
+
+@media screen and (min-width: 776px) {
+    body{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    h1{
+        font-size: 39px;
+    }
+    .citation{
+        height: 20em;
+        width: 14em;
+    }
+
+    #avocadoGrill{
+        height: 10em;
+        width: 10em;
+        background-size: 100%;
+    }
+    #horaire{
+        width: 15em;
+        height: 15em;
+        margin: 0;
+    }
+    #withHoraire{
+        width: 2em;
+        height: 2em;
+    }
+
+}

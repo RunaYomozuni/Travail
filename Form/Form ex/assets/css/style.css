@@ -1,0 +1,39 @@
+body {
+    background-image: url("../img/sneaker_mesh_fabric.png");
+}
+form{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(138, 101, 101, 0.3);
+}
+fieldset{
+    border-radius: 7px;
+}
+.id input{
+    background: white;
+    width: 1400px;
+    border-radius: 5px;
+}
+.id select{
+    background: white;
+    width: 1400px;
+    border-radius: 5px;
+}
+.photo{
+    border: black 1px solid;
+}
+.photo input{
+    padding: 20px;
+}
+.dest{
+    float: left;
+    padding-right: 30px;
+}
+#comfirm{
+    background: green;
+    padding: 10px 710px;
+}
+#annule{
+    background: red;
+    padding: 10px 716px;
+}

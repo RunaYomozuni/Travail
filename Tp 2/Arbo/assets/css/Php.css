@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    text-decoration: none;
+}
+header img{
+    width: 100%;
+}
+h1{
+    position: relative;
+    text-align: center;
+    bottom: 400px;
+}
+#javascript h2{
+    text-align: center;
+}
+.lorem{
+    text-align: center;
+}
+.lorem h2{
+    font-weight: bold;
+}
+.lorem p{
+    padding: 10px;
+}
+#effect{
+    background-color: orange;
+}
