@@ -12,13 +12,21 @@ else{
     console.log("ciseaux");
     pfc = "ciseaux";
 }
-let ask = prompt("Pierre Feuille ou Ciseaux ?")
-if (!isNaN(ask)) {
-    alert("tu es juste stupide mais ont t'en veux pas");
+let ask = prompt("Pierre Feuille ou Ciseaux ?");
+if (ask === "pierre" || ask === "feuille" || ask === "ciseaux") {
+    if (pfc === ask){
+        alert("Égalité");
+    }
+    else if (nrb <= 33 && ask === "feuille"){
+        alert("User a win")
+    }
+    else if (nrb <= 66 && ask === "ciseaux"){
+        alert("User a win")
+    }
+    else if (nrb >= 66 && ask === "pierre"){
+        alert("User a win")
+    }
 }
-else if (pfc === ask){
-    alert("ez");
-}
-else if (pfc !== ask){
-    alert("noob");
+else{
+    alert("tu es stupide mais ont t'en veux pas");
 }
