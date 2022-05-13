@@ -30,7 +30,6 @@ for(let key in Contact){
 for(let [key, value] of Object.entries(Contact)){
     console.log(`${key} : ${value}`);
 }
-11 h 51
 //------ exo Voiture avec une boucle
 function w(w){
     document.write(w + '<br>');
