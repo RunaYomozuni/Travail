@@ -4,14 +4,9 @@ function EzByRuna(regex, aTester){
 EzByRuna(/[ABCD]/i, "Allo ?");
 
 function arobase(regex,aTester){
-    if (aTester.match("@@")){
-        return true
-    }
-    else {
-        return false
-    }
+    return !!aTester.match("@@");
 }
-arobase(/[@]/, "jonascompper2@gmail.com");
+arobase(/@/, "jonascompper2@@gmail.com");
 
 
 
