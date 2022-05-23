@@ -15,6 +15,7 @@
 */
 
 function Sac() {
+    this.ajoute = []
     this.contenu = [];
     this.taille = 5;
     this.vide = true;
@@ -30,16 +31,17 @@ function Sac() {
             } else if (!isNaN(contenu) || contenu === null || contenu === " ") {
                 alert('tu ne doit pas mettre de chiffre')
             }
-            quantite = prompt('Quelle quantité veux tu mettre de cette article');
+            quantite = parseInt(prompt('Quelle quantité veux tu mettre de cette article'));
 
             if (quantite > this.taille) {
                 alert("tu n'as pas assez de place dans ton sac pour mettre autant d'article")
             } else {
                 this.contenu.push([`${contenu} : ${quantite}`]);
+                this.ajoute.push([contenu]);
                 this.taille -= quantite
                 this.vide = false
             }
-            this.full = function (contenu) {
+            this.full = function (contenu,quantite) {
                 if (this.contenu.length >= this.taille) {
                     console.log(ajout);
                     alert('Votre sac est plein')
@@ -49,16 +51,23 @@ function Sac() {
                         if (contenu === "all") {
                             this.contenu.splice(this.taille);
                         }
-                        // else if (!this.contenu.includes(contenu)) {
-                        //     alert("L'article que tu essaye de retiré n'existe pas");
-                        //     this.contenu.pop();
-                        //   }
-                        // else if (!isNaN(contenu)) {
-                        //      this.contenu.pop(contenu);
-                        //      console.log("ok");
-                        // }
-                    } else {
-                        this.contenu.shift(contenu);
+                        else if (!this.ajoute.includes(contenu)) {
+                            alert("L'article que tu essaye de retiré n'existe pas");
+                            this.contenu.pop();
+                        }
+                        else if (!isNaN(contenu)) {
+                            this.contenu.pop(contenu);
+                            console.log("ok");
+                        }
+                        else {
+                            this.contenu.shift(contenu);
+                            let quantiteFinal = parseInt(prompt("combien veux-tu en enlever"));
+                            quantite -= quantiteFinal
+                            if (quantite > quantiteFinal){
+                                this.contenu.pop(contenu)
+                            }
+                            this.contenu.push([`${contenu} : ${quantite}`]);
+                        }
                     }
                 }
             }
