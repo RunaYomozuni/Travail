@@ -1,3 +1,35 @@
 body{
-    display: none;
+    background: url("../img/bgPokemon.png") no-repeat;
+    background-size: cover;
+    font-family: 'Permanent Marker', cursive;
+    color: gray;
+}
+h1 img{
+    height: 150px;
+}
+.pokemon img{
+    display: block;
+    margin: 0 800px 100px;
+    height: 300px;
+}
+#menu{
+    display: flex;
+    justify-content: space-evenly;
+}
+#stat{
+    display: flex;
+}
+#menu div{
+    padding: 10px 50px;
+    border: 1px solid gray;
+    text-transform: uppercase;
+    background-color: white;
+}
+#stat div{
+    height: 300px;
+    width: 200px;
+    text-align: center;
+    border: 1px solid gray;
+    text-transform: uppercase;
+    background-color: white;
 }
