@@ -16,7 +16,9 @@ console.log(addES5(4,5));
 
   function modulo(a,b){
     if (a%b === 0){
-      return true;
+      return "paire";
+    }else {
+      return "impair"
     }
   }
   modulo(2,2);

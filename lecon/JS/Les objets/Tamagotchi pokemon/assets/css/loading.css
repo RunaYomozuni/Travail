@@ -10,7 +10,7 @@
     display: none;
 }
 .loading {
-    animation: 8s;
+    animation: 5s;
     background-color: lightgray;
     width: 0;
     height: 25px;
