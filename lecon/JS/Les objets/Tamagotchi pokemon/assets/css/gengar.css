@@ -2,3 +2,41 @@ body{
     background: url("../img/d31xa83-092a65a0-cbf1-4018-98a4-da8768920bf2.jpg");
     background-size: cover;
 }
+#stat .statPokemon{
+    height: 250px;
+    text-align: center;
+    border: 1px solid black;
+    text-transform: uppercase;
+    background-color: rgba(75,0,130,0.7);
+    font-size: 20px;
+    color: black;
+    padding: 0 20px;
+}
+#menu button{
+    background-color: rgba(75,0,130,0.7);
+    border: 1px solid black;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: black;
+}
+.fight{
+    content: url("../img/ectoplasma/gengar-gengar-pokemon..gif");
+}
+.fight2{
+    content: url("../img/ectoplasma/lucario-pokemon-lucario.gif");
+}
+.fight3{
+    content: url("../img/ectoplasma/grimmsnarl-giganta-max.gif");
+}
+.fight4{
+    content: url("../img/ectoplasma/gigantamax-gengar-gengar.gif");
+}
+.play{
+    content: url("../img/ectoplasma/gengar-gengar-pokemon....gif");
+}
+.play2{
+    content: url("../img/ectoplasma/gengar-pokemon.gif");
+}
+.play3{
+    content: url("../img/ectoplasma/gengar-gengar-pokemon...gif");
+}

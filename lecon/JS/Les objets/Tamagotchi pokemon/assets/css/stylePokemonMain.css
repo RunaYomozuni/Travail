@@ -10,27 +10,28 @@ h1 img{
 }
 .pokemon img{
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 100px;
     height: 300px;
 }
 #menu{
     display: flex;
     justify-content: space-evenly;
 }
-#menu div{
+#menu button{
     padding: 10px 50px;
     border: 1px solid gray;
     text-transform: uppercase;
     background-color: white;
+    color: gray;
 }
-#stat div{
+#stat .statPokemon{
     height: 250px;
-    width: 100px;
     text-align: center;
     border: 1px solid gray;
     text-transform: uppercase;
     background-color: white;
     font-size: 20px;
+    color: gray;
 }
 #rightStat{
     float: right;
