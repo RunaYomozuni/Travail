@@ -11,7 +11,7 @@ let play = document.querySelector('#play');
     gengar.classList.remove('play')
     setTimeout(function (){
         gengar.classList.remove(gifsFight[random]);
-    },4400)
+    },7000)
 }
 
 
