@@ -11,10 +11,10 @@
 }
 .loading {
     animation: 5s;
-    background-color: lightgray;
+    border: transparent;
+    background-color: #5D366D;
     width: 0;
     height: 25px;
-    border-radius: 20px;
     animation-name: loading;
     display: none;
 }

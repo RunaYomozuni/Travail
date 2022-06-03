@@ -7,7 +7,7 @@ body{
     text-align: center;
     border: 1px solid black;
     text-transform: uppercase;
-    background-color: rgba(75,0,130,0.7);
+    background-color: rgba(165, 55, 200,0.5);
     font-size: 20px;
     color: black;
     padding: 0 20px;
@@ -39,4 +39,17 @@ body{
 }
 .play3{
     content: url("../img/ectoplasma/gengar-gengar-pokemon...gif");
+}
+html {
+    animation: 5s;
+    animation-name: sombre;
+}
+
+@keyframes sombre {
+    from {
+        background-color: rgba(0.0.0.0) ;
+    }
+    to {
+        background-color: rgba(0.0.0.1) ;
+    }
 }

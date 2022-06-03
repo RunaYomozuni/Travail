@@ -8,7 +8,7 @@ for (let i = 0; i < ball.length; i++){
         let rdm = Math.floor(Math.random()*4);
         this.querySelector('img').setAttribute('src',"assets/img/pokeOpen.png");
         setTimeout(function (){
-            window.location.href = pokemon[rdm];
+            window.open(pokemon[rdm]);
         },500)
 
     });
