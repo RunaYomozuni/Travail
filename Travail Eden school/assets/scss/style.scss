@@ -1,0 +1,194 @@
+@import "modules/variable";
+@mixin valeur($width,$text-align,$font-size){
+  width: $width;
+  text-align: $text-align;
+  font-size: $font-size;
+}
+@mixin headerUlH1($font-size,$text-align,$pd-top,$color){
+  text-align: $text-align;
+  font-size: $font-size;
+  color: $color;
+  padding-top:$pd-top;
+}
+@mixin navLiA($ft-size,$txt-deco,$display,$pd,$txt-trans,$c-black,$txt-align){
+  font-size: $ft-size;
+  text-decoration: $txt-deco;
+  display: $display;
+  padding: $pd;
+  text-transform: $txt-trans;
+  color: $c-black;
+  text-align: $txt-align;
+}
+.clear{
+  clear: both;
+}
+h3{
+  color: $bgcTurquoise;
+}
+h2{
+  width: 100%;
+  text-transform: uppercase;
+}
+
+
+body{
+  font-family: 'Poppins:ital,wght@1,300', sans-serif;
+  section{
+    margin: 5rem 7rem;
+    div{
+      margin: 5rem 0;
+    }
+  }
+}
+header{
+  background: url(../img/bandeau.jpg) no-repeat fixed  ;
+  background-size: 100%;
+  padding-top: 50px;
+  padding-bottom: 17%;
+  text-align: center;
+  ul{
+    @include headerUlH1(5rem,center,150px,white)
+  }
+  h1{
+    @include headerUlH1(5rem,center,100px,white);
+    margin: 0;
+  }
+  h2{
+    color: white;
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 0;
+  }
+  h3{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+  }
+  img{
+    width: 7%;
+  }
+}
+nav{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  ul{
+    justify-content: center;
+  }
+  li{
+    @include navLiA(1.2rem,none,block,18px 16px,uppercase,black,center);
+    margin: 0 2%;
+  }
+  li:first-of-type{
+    color: $bgcTurquoise;
+  }
+}
+#Presentation{
+  display: flex;
+  justify-content: space-between;
+  #moi{
+    width: 73%;
+  }
+  h2{
+    width: 2%;
+  }
+  p{
+    width: 40%;
+  }
+  #photo_vide{
+    padding: 5%;
+    background-color: $bgcGray;
+    color: white;
+    text-align: center;
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+#Citation{
+  background-color: $bgcTurquoise;
+  color: white;
+  text-align: center;
+  padding: 4%;
+}
+#valeur{
+  margin: 0 7rem ;
+  text-align: center;
+}
+#Mes_Travaux{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  h2{
+    width: 100%;
+  }
+  div{
+    margin: 1%;
+    background-color: $bgcGray;
+    color: white;
+    padding: 5%;
+  }
+  .case{
+    width: 45%;
+  }
+  #Exemple{
+    background-color: $bgcTurquoise;
+  }
+  #projet{
+    background: url("../img/Capture d’écran 2022-06-27 143438.png") no-repeat;
+    background-size: cover;
+  }
+  #projet2{
+    background: url("../img/Capture d’écran 2022-06-27 143601.png") no-repeat;
+    background-size: cover;
+  }
+  #projet3{
+    background: url("../img/Capture d’écran 2022-06-27 144724.png") no-repeat;
+    background-size: cover;
+  }
+
+}
+#Mon_Parcours{
+  .bolt{
+    font-weight: bold;
+  }
+  .grey{
+    color: $bgcGray;
+  }
+}
+#Mes_Interet{
+  background-color: rgba(224, 219, 219, 0.4);
+  text-align: center;
+  padding: 5rem;
+  h2{
+    text-transform: uppercase;
+  }
+  #interet{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .lorem{
+    text-align: start;
+  }
+  .interet {
+    background-color: white;
+    border: rgba(128,128,128,0.2) solid 1px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    color: $bgcTurquoise;
+  }
+  article{
+    width: 40%;
+    display: flex;
+  }
+}
+#Pourquoi_eden{
+  span{
+    color: $bgcTurquoise;
+
+  }
+}

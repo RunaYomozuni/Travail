@@ -1,0 +1,111 @@
+//VARIABLE
+@import "modules/variables";
+@import "modules/responsive";
+
+//MIXIN(modele/template)
+@mixin boite($width,$bgc,$float){
+  //les propiete identique (valeur differente) sont passé en parametre
+  width: $width;
+  background-color: $bgc;
+  padding: 2%;
+  float: $float;
+  //pareil pour les span & les p
+  p{
+    font-family: cursive;
+  }
+
+  span{
+    font-size: $fs_text;
+    font-weight: bold;
+    color: $c_link;
+  }
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: $c_bgc_main;
+  font-size: 62.5%;
+  color: $c_text;
+}
+
+#box{
+  font-size: $fs_text;
+  h1{
+    font-size: $fs_text * 3;
+    background-color: rgba(250,250,250,.2);
+    text-align: center;
+    border-radius: 10px;
+    padding: 2vw;
+  }
+
+  a{
+    color: $c_link;
+    font-size: $fs_text + 1;
+    text-decoration: none;
+    display: block;
+    outline: 2px solid $c_link;
+    text-align: center;
+    margin-top: 5vh;
+    &:hover {
+      text-decoration: underline;
+      cursor: help;
+    }
+    &:active{
+      background-color: $c_orange;
+    }
+  }
+
+  .btn{
+    @extend a; //HERITAGE
+    margin-bottom: 5vh;
+  }
+
+  %cta{ //HERITAGE
+    padding: 5px 12px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: $c_link;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .cta{
+    @extend %cta;
+    background: $c_orange;
+    &:hover {
+      background: rgba($c_orange, 0.6);
+    }
+  }
+
+  .cta-danger{
+    @extend %cta;
+    background: $c_red;
+    &:hover {
+      background: darken($c_red, 20);
+      color: $c_link;
+    }
+  }
+  .boite1{
+    @include boite(35%,$c_orange,left);
+  }
+
+  .boite2{
+    @include boite(50%,$c_red,right);
+    line-height: 2.24;
+  }
+
+  .clear{
+    clear: both;
+  }
+}
+//media queries utilisant l'interpolation
+
+@media #{$medium-up} {
+  #box{
+    width: 70%;
+    margin: 0 auto;
+  }
+}
