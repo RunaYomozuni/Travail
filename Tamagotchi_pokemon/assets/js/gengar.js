@@ -1,4 +1,4 @@
-let gengar = document.getElementById("img");
+ let gengar = document.getElementById("img");
 let fight = document.getElementById('fight');
 let play = document.querySelector('#play');
 let sleep = document.querySelector('#sleep');

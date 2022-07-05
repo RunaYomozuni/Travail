@@ -188,5 +188,8 @@ nav li:first-of-type {
 #Pourquoi_eden span {
   color: hsl(178deg, 42%, 64%);
 }
+#Pourquoi_eden h2 {
+  width: 2%;
+}
 
 /*# sourceMappingURL=style.css.map */

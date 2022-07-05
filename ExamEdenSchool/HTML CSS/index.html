@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="un site pour le restaurant 'BON APP' ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/Normalize.css">
+    <link rel="stylesheet" href="assets/css/Base.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>BON APP</title>
+</head>
+
+<body>
+<div id="dark">
+    <div id="dark_screen"><p>c est une blague ... rechargez la page !</p></div>
+</div>
+<header>
+    <h1>bon app</h1>
+    <!--DEBUT DU MENU-->
+    <nav>
+        <ul>
+            <li><a href="#plats">plats</a></li>
+            <li><a href="#blog">blog</a></li>
+            <li><a href="#contact">contact</a></li>
+        </ul>
+    </nav>
+
+    <button id="dark_mode">dark</button>
+
+</header>
+
+
+<main>
+    <!--DEBUT DE LA PREMIERE SECTION-->
+    <section id="tableau">
+        <h2>nos abonnements</h2>
+        <!--    DEBUT DU TABLEAU-->
+        <table>
+            <thead>
+            <tr>
+                <th class="c-gray">bronze</th>
+                <th class="c-gray">silver</th>
+                <th class="c-gray">gold</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1 repas par semaine</td>
+                <td>3 repas par semaine</td>
+                <td>5 repas par semaine</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td class="c-gray">29 euros/mois</td>
+                <td class="c-gray">79 euros/mois</td>
+                <td class="c-gray">149 euros/mois</td>
+            </tr>
+            </tfoot>
+        </table>
+        <!--        FIN DU TABLEAU-->
+    </section>
+
+    <!--FIN DE LA PREMIERE SECTION-->
+
+    <!--DEBUT DE LA DEUXIÈME SECTION-->
+
+    <section id="plats"><h2>les plats a la carte</h2></section>
+
+    <!--FIN DE LA DEUXIÈME SECTION-->
+
+    <!--    SEPARATEUR-->
+    <div id="separateur"></div>
+
+    <!--DEBUT DE LA TROISIÈME SECTION-->
+
+    <section id="blog">
+        <h2>blog</h2>
+
+        <!--DEBUT DU PREMIERE ARTICLE -->
+        <div id="box">
+            <article>
+                <div class="img" id="img1"></div>
+                    <h3>un super titre</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur cupiditate dolorem ex facilis
+                        iusto nisi, numquam officiis omnis reiciendis rem repellendus rerum, sed tempore veniam, voluptate!
+                        Blanditiis eligendi nesciunt qui?</p>
+            </article>
+
+            <!--DEBUT DU DEUXIÈME ARTICLE -->
+
+            <article>
+                <div class="img" id="img2"></div>
+                    <h3>un super titre</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur cupiditate dolorem ex facilis
+                        iusto nisi, numquam officiis omnis reiciendis rem repellendus rerum, sed tempore veniam, voluptate!
+                        Blanditiis eligendi nesciunt qui?</p>
+            </article>
+
+            <!--DEBUT DU TROIXIEME ARTICLE -->
+
+            <article>
+                <div class="img" id="img3"></div>
+                    <h3>un super titre</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur cupiditate dolorem ex facilis
+                        iusto nisi, numquam officiis omnis reiciendis rem repellendus rerum, sed tempore veniam, voluptate!
+                        Blanditiis eligendi nesciunt qui?</p>
+            </article>
+
+            <!--DEBUT DU QUARTRIEME ARTICLE -->
+
+            <article>
+                <div class="img" id="img4"></div>
+                    <h3>un super titre</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur cupiditate dolorem ex facilis
+                        iusto nisi, numquam officiis omnis reiciendis rem repellendus rerum, sed tempore veniam, voluptate!
+                        Blanditiis eligendi nesciunt qui?</p>
+            </article>
+        </div>
+
+    </section>
+
+    <!--FIN DE LA TROISIÈME SECTION-->
+</main>
+
+
+<footer id="contact">
+<!--    FORMULAIRE-->
+    <h2>formulaire de contact</h2>
+    <p>Pour plus de details vous pouvez consulter notre site <span><a href="https://www.edenschool.fr/">ici</a></span></p>
+    <form>
+<!--        VERIFICATION D'AGE-->
+        <h3>information de contact</h3>
+        <fieldset>
+            <legend>Quel est votre age</legend>
+            <label><input type="radio">12 - 14</label>
+            <label><input type="radio">15 - 17</label>
+            <label><input type="radio">18 - 19</label>
+        </fieldset>
+<!--        INFORMATION PERSONNEL-->
+        <label id="name">nom : <input type="text" name="name" placeholder="Saisissez votre nom" required></label>
+        <label id="mail">mail : <input type="email" name="mail" required></label>
+
+<!--        PREFERENCE-->
+        <h3>votre jeu préféré</h3>
+        <label id="console"> Choisissez une console :
+            <select>
+                <option value="">--Choisissez une console--</option>
+                <option value="">Pc</option>
+                <option value="">PS5</option>
+                <option value="">Switch</option>
+                <option value="">Xbox</option>
+            </select>
+        </label>
+
+        <label id="game"> Choisissez un jeu :
+            <select>
+                <option value="">--Choisissez une console--</option>
+                <option value="">Elder Ring</option>
+                <option value="">Fortnite</option>
+                <option value="">Rocket Ligue</option>
+                <option value="">Fall Guys</option>
+            </select>
+        </label>
+<!--SUBMIT-->
+        <h3>votre message</h3>
+        <label><textarea placeholder="Saisissez votre message"></textarea></label>
+        <label id="cryptage">cryptage du message : <input type="password" name="cryptage"></label>
+        <label id="submit"><input type="submit" name="submit" value="Envoyer votre message"></label>
+    </form>
+</footer>
+
+
+</body>
+<script src="assets/js/script.js"></script>
+</html>

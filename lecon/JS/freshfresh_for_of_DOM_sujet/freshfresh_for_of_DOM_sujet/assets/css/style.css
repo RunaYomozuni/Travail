@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Capriola&family=Fascinate&display=swap');
+body{
+    margin: 0;
+}
+p{
+
+}
+h1{
+    background-color: #2EC4B6;
+    padding: 50px 0;
+    margin: 0;
+}
+h2,h1{
+    text-align: center;
+}
+h2,h3{
+    color: #FF9F1C;
+}
+h2{
+    background-color: #CBF3F0;
+    margin: 0;
+    padding: 30px;
+}
+#menu{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+article{
+    width: 34%;
+    text-align: center;
+    border: #FFBF69 1px solid;
+    margin-bottom: 7%;
+}
+.img{
+    overflow: hidden;
+}
+
+img{
+    width: 70%;
+}
+
+span::after{
+    content: "♠️";
+    font-size: 250%;
+    cursor: pointer;
+    position: fixed;
+    background-color: #FF9F1C;
+    border-radius: 50%;
+    padding: 2%;
+    left: 90%;
+    top: 75%;
+}
+small{
+    color: white;
+    background-color: #2EC4B6;
+    font-size: 250%;
+    display: block;
+    padding-top: 10%;
+    text-align: center;
+    margin-top: 5%;
+}
+/* colors
+https://coolors.co/ff9f1c-ffbf69-ffffff-cbf3f0-2ec4b6*/
+
+/* emoji for btn back to top
+https://getemoji.com/*/
